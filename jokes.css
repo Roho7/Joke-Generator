@@ -1,0 +1,109 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html,body{
+    height: 100%;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    padding: 40px;
+}
+
+html{
+        background: linear-gradient(270deg, #2b2455, #b23fa7, #6569c9, #39449b);
+        background-size: 800% 800%;
+    
+        -webkit-animation: AnimationName 30s ease infinite;
+        -moz-animation: AnimationName 30s ease infinite;
+        animation: AnimationName 30s ease infinite;
+    }
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: max-content;
+    max-height: max-content;
+    border: solid 1px;
+    padding: 20px;
+    border-radius: 20px;
+
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+h1{
+   color: white;
+}
+
+h2{
+    margin-block: 90px;
+    color: white;
+}
+
+
+
+button{
+    margin: 20px;
+    max-width: max-content;
+    padding: 20px;
+    height: 50px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+button:hover{
+    background-color: #b23fa7;
+    color: white;
+    transform: translateY(-5px);
+    transition: 0.1s ease-out;
+    box-shadow: 0 30px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+#reset {
+    display: none;
+}
+
+.button-cont {
+    display: flex;
+    
+}
