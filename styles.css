@@ -65,14 +65,21 @@ html{
 
 h1{
    color: white;
+   text-align: center;
 }
 
 h2{
-    margin-block: 90px;
+    margin-block: 40px;
     color: white;
+    line-height: 2rem;
+    padding: 20px;
+    background: rgba(12, 0, 247, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-
-
 
 button{
     margin: 20px;
@@ -81,7 +88,7 @@ button{
     max-height: max-content;
     font-family: 'Press Start 2P', cursive;
     font-size: 1rem;
-    font-weight: 800;
+    line-height: 2rem;
     color: white;
     background: rgba( 255, 255, 255, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
